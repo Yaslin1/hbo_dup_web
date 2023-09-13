@@ -1,13 +1,12 @@
 export default function LoginForm() {
   return (
     <div class="flex min-h-full bg-svg-background flex-col justify-center px-6 py-12 lg:px-8">
-        <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8 bg-gray-300 bg-opacity-5 rounded-lg">
-          <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+        <div class="flex min-h-full flex-col justify-center p-14 lg:px-8 bg-gray-300 bg-opacity-5 rounded-lg">
+          <div class="">
             <h2 class="mt-10 text-center text-2xl font-medium leading-9 tracking-tight text-white">Sign In</h2>
-            <p class="mt-2 text-center text-white text-base font-light">Enter your Max or HBO Max account email addres and password.</p>
+            <p class="mt-2 mb-14 text-center text-white text-base font-light">Enter your Max or HBO Max account email addres and password.</p>
           </div>
-
-          <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+          <div class="">
             <form class="space-y-6" action="#" method="POST">
               <div>
                 <label for="email" class="block text-sm font-medium leading-6 text-white">Email address</label>
@@ -24,23 +23,18 @@ export default function LoginForm() {
                 <div class="mt-2">
                 </div>
               </div>
-
-              <div class="w-full flex flex-row items-center justify-evenly">
-                <div>
-                  <button type="submit" class="grow w-full rounded-md bg-gray-300 px-3 py-1.5 text-sm font-semibold leading-6 text-black shadow-sm hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sign In</button>
-                </div>
-                <div class="text-sm">
+              <div class="text-sm">
                   <a href="#" class="font-semibold text-blue-500 hover:underline">Forgot Password?</a>
+              </div>
+              <div class="w-full flex">
+                <div>
+                  <button type="submit" class="grow w-full rounded-md bg-gray-300 px-12 py-1.5 text-sm font-semibold leading-6 text-black shadow-sm hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sign In</button>
                 </div>
               </div>
             </form>
-
-            <p class="mt-10 text-center text-sm text-gray-500">
-              Not a member?
-              <a href="#" class="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">Start a 14 day free trial</a>
-            </p>
           </div>
         </div>
+       
       </div>
   )
 }
