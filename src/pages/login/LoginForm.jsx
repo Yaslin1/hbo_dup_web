@@ -1,6 +1,6 @@
 export default function LoginForm() {
   return (
-    <div class="flex min-h-full bg-svg-background flex-col justify-center px-6 py-12 lg:px-8">
+    <div class="flex min-h-full bg-svg-background flex-col justify-center">
         <div class="flex min-h-full flex-col justify-center p-14 lg:px-8 bg-gray-300 bg-opacity-5 rounded-lg">
           <div class="">
             <h2 class="mt-10 text-center text-2xl font-medium leading-9 tracking-tight text-white">Sign In</h2>
@@ -18,8 +18,11 @@ export default function LoginForm() {
               <div>
                 <div class="flex items-center justify-between">
                   <label for="password" class="block text-sm font-medium leading-6 text-white">Password</label>
+                  
                 </div>
                 <input id="password" name="password" type="password" autocomplete="current-password" required class="block w-full rounded-md bg-transparent border border-white h-14 px-3 py-3.5 text-white font-normal text-base shadow-sm ring-1 ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-blue-400 sm:text-sm sm:leading-6 focus:outline-none focus:border-blue-400" />
+                
+                
                 <div class="mt-2">
                 </div>
               </div>

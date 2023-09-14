@@ -1,26 +1,49 @@
 export default function Footer() {
   return (
     <>
-    <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
-        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
-        </span>
-        <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+   
+      <footer class="mt-44 bg-transparent rounded-lg shadow m-4 justify-between">
+      <span class="flex flex-row justify-end w-full text-sm text-gray-300 sm:text-center">© 2023 WarnerMedia Direct, LLC. All rights reserved.
+      </span>
+        <div class="flex justify-between items-center w-full mx-auto max-w-screen-xl p-4">
+          <div class="flex">
+          <a class="flex pr-3 text-sm font-bold text-blue-500" href="https://www.youtube.com/@streamonmax" label="YouTube">
+            <img class="w-5 transition-all duration-300 ease-in-out transform hover:scale-110 hover:text-blue-500" loading="lazy" alt="Youtube Logo White" src="/images/icons/YOUTUBE-white.webp"/>
+          </a>
+          <a class="flex pr-3 text-sm font-bold text-blue-500" href="https://www.twitter.com/streamonmax" label="Twitter">
+            <img class="w-5 transition-all duration-300 ease-in-out transform hover:scale-110" loading="lazy" alt="Twitter Logo White" src="/images/icons/TWITTER-white.webp"/>
+          </a>
+          <a class="flex pr-3 text-sm font-bold text-blue-500" href="https://www.facebook.com/streamonmax" label="Facebook">
+            <img class="w-5 transition-all duration-300 ease-in-out transform hover:scale-110" loading="lazy" alt="Facebook Logo White" src="/images/icons/FACEBOOK-white.webp"/>
+          </a>
+          <a class="flex pr-3 text-sm font-bold text-blue-500" href="https://www.instagram.com/streamonmax" label="Instagram">
+            <img class="w-5 transition-all duration-300 ease-in-out transform hover:scale-110" loading="lazy" alt="Instagram Logo White" src="/images/icons/INSTAGRAM-white.webp"/>
+          </a>
+          <a class="flex pr-3 text-sm font-bold text-blue-500" href="https://www.tiktok.com/@streamonmax" label="TikTok">
+            <img class="w-5 transition-all duration-300 ease-in-out transform hover:scale-110" loading="lazy" alt="TikTok Logo White" src="/images/icons/TIKTOK-white.webp"/>
+          </a>
+          </div>
+          <div>
+          <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-300 sm:mt-0">
             <li>
-                <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+              <a href="#" class="mr-4 hover:text-white md:mr-6 ">Privacy Policy</a>
             </li>
             <li>
-                <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+              <a href="#" class="mr-4 hover:text-white md:mr-6">Term of Use</a>
             </li>
             <li>
-                <a href="#" class="mr-4 hover:underline md:mr-6">Licensing</a>
+              <a href="#" class="mr-4 hover:text-white md:mr-6">Ad Choices</a>
             </li>
             <li>
-                <a href="#" class="hover:underline">Contact</a>
+              <a href="#" class="mr-4 hover:text-white md:mr-6">Do Not Sell or Share My Personal Information</a>
             </li>
-        </ul>
+            <li>
+              <a href="#" class="hover:text-white">Help</a>
+            </li>
+          </ul>
+          </div>
         </div>
-    </footer>
+      </footer>
     </>
   )
 }
