@@ -21,7 +21,7 @@ export default function LoginPage() {
           <rect x="0" y="0" width="100%" height="100%" fill="url(#a)" />
           <rect x="0" y="0" width="100%" height="100%" fill="url(#b)" />
         </svg>
-        <div class="relative px-8 text-white ">
+        <div class="relative px-8 mt-20 text-white ">
           <h2 class="font-medium text-center text-4xl mb-6">Get Started</h2>
           <div class="flex justify-center space-x-4">
             <LoginForm />

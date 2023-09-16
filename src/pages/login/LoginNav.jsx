@@ -22,7 +22,7 @@ export default function LoginNav() {
 
   return (
     <div>
-      <div class="relative z-10 h-32 bg-gradient-to-b from-black to-transparent">
+      <div class="absolute z-10 h-32 bg-gradient-to-b from-black to-transparent">
         <nav class={`transition-all 
     ${scrolling ? "bg-slate-950/75 backdrop-blur-sm shadow-md" : "bg-transparent"} fixed w-full z-20 top-0 left-0 `}>
           <div class="flex flex-wrap items-center justify-between mx-auto p-4">

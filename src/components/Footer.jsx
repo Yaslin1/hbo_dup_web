@@ -5,7 +5,7 @@ export default function Footer() {
       <footer class="mt-44 bg-transparent rounded-lg shadow m-4 justify-between">
       <span class="flex flex-row justify-end w-full text-sm text-gray-300 sm:text-center">© 2023 WarnerMedia Direct, LLC. All rights reserved.
       </span>
-        <div class="flex justify-between items-center w-full mx-auto max-w-screen-xl p-4">
+        <div class="flex justify-between items-center w-full mx-auto py-4">
           <div class="flex">
           <a class="flex pr-3 text-sm font-bold text-blue-500" href="https://www.youtube.com/@streamonmax" label="YouTube">
             <img class="w-5 transition-all duration-300 ease-in-out transform hover:scale-110 hover:text-blue-500" loading="lazy" alt="Youtube Logo White" src="/images/icons/YOUTUBE-white.webp"/>
@@ -24,7 +24,7 @@ export default function Footer() {
           </a>
           </div>
           <div>
-          <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-300 sm:mt-0">
+          <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-300">
             <li>
               <a href="#" class="mr-4 hover:text-white md:mr-6 ">Privacy Policy</a>
             </li>
