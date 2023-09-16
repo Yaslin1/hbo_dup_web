@@ -3,7 +3,7 @@ export default function LoginProvider() {
     <div class="flex min-h-full bg-svg-background flex-col justify-center">
       <div class="flex min-h-full flex-col justify-center p-14 lg:px-8 bg-gray-300 bg-opacity-5 rounded-lg">
         <div class="sm:mx-auto sm:w-full sm:max-w-sm">
-          <h2 class="text-center text-2xl font-medium leading-9 tracking-tight text-white">Connect Your Provider</h2>
+          <h2 class="text-center text-3xl font-medium leading-9 tracking-tight text-white">Connect Your Provider</h2>
           <p class="mt-2 mb-14 text-center text-white text-base font-light">Select your internet, mobile, or TV provider below to connect your subscription.</p>
         </div>
         <div class="grid grid-cols-3 gap-3 justify-center ">

@@ -8,19 +8,19 @@ export default function Footer() {
         <div class="flex justify-between items-center w-full mx-auto py-4">
           <div class="flex">
           <a class="flex pr-3 text-sm font-bold text-blue-500" href="https://www.youtube.com/@streamonmax" label="YouTube">
-            <img class="w-5 transition-all duration-300 ease-in-out transform hover:scale-110 hover:text-blue-500" loading="lazy" alt="Youtube Logo White" src="/images/icons/YOUTUBE-white.webp"/>
+            <img class="w-5 opacity-75 hover:opacity-100" loading="lazy" alt="Youtube Logo White" src="/images/icons/YOUTUBE-white.webp"/>
           </a>
           <a class="flex pr-3 text-sm font-bold text-blue-500" href="https://www.twitter.com/streamonmax" label="Twitter">
-            <img class="w-5 transition-all duration-300 ease-in-out transform hover:scale-110" loading="lazy" alt="Twitter Logo White" src="/images/icons/TWITTER-white.webp"/>
+            <img class="w-5 opacity-75 hover:opacity-100" loading="lazy" alt="Twitter Logo White" src="/images/icons/TWITTER-white.webp"/>
           </a>
           <a class="flex pr-3 text-sm font-bold text-blue-500" href="https://www.facebook.com/streamonmax" label="Facebook">
-            <img class="w-5 transition-all duration-300 ease-in-out transform hover:scale-110" loading="lazy" alt="Facebook Logo White" src="/images/icons/FACEBOOK-white.webp"/>
+            <img class="w-5 opacity-75 hover:opacity-100" loading="lazy" alt="Facebook Logo White" src="/images/icons/FACEBOOK-white.webp"/>
           </a>
           <a class="flex pr-3 text-sm font-bold text-blue-500" href="https://www.instagram.com/streamonmax" label="Instagram">
-            <img class="w-5 transition-all duration-300 ease-in-out transform hover:scale-110" loading="lazy" alt="Instagram Logo White" src="/images/icons/INSTAGRAM-white.webp"/>
+            <img class="w-5 opacity-75 hover:opacity-100" loading="lazy" alt="Instagram Logo White" src="/images/icons/INSTAGRAM-white.webp"/>
           </a>
           <a class="flex pr-3 text-sm font-bold text-blue-500" href="https://www.tiktok.com/@streamonmax" label="TikTok">
-            <img class="w-5 transition-all duration-300 ease-in-out transform hover:scale-110" loading="lazy" alt="TikTok Logo White" src="/images/icons/TIKTOK-white.webp"/>
+            <img class="w-5 opacity-75 hover:opacity-100" loading="lazy" alt="TikTok Logo White" src="/images/icons/TIKTOK-white.webp"/>
           </a>
           </div>
           <div>
