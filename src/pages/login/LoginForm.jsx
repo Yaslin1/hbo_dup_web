@@ -10,7 +10,7 @@ export default function LoginForm() {
     <div className="flex min-h-full bg-svg-background flex-col justify-center">
       <div className="flex min-h-full flex-col justify-start md:p-14 min-[440px]:bg-gray-300 min-[440px]:bg-opacity-5 rounded-lg">
         <div className="">
-          <h2 className="text-center text-3xl font-medium leading-9 tracking-tight text-white">Sign In</h2>
+          <h2 className="text-center text-2xl md:text-3xl font-medium leading-9 tracking-tight text-white">Sign In</h2>
           <p className="mt-2 mb-14 text-center text-white text-base font-light">Enter your Max or HBO Max account email addres and password.</p>
         </div>
         <div className="">
