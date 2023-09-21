@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <>
    
-      <footer className="mt-44 bg-transparent rounded-lg shadow justify-between">
+      <footer className="mt-44 bg-transparent rounded-lg shadowç justify-between">
       <span className="flex flex-row lg:justify-end w-full text-sm text-gray-300 sm:text-center">© 2023 WarnerMedia Direct, LLC. All rights reserved.
       </span>
         <div className="lg:flex justify-between items-center w-full mx-auto py-4">
