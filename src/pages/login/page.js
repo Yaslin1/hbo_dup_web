@@ -25,7 +25,7 @@ export default function LoginPage() {
         </svg>
         <div className="relative px-8 mt-20 text-white ">
           <h2 className="font-medium text-center text-3xl md:text-5xl mb-6">Get Started</h2>
-          <div className="lg:flex justify-center space-x-4 ">
+          <div className="lg:flex justify-center lg:space-x-4 ">
             <LoginForm />
             <LoginProvider />
           </div>

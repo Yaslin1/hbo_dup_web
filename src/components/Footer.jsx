@@ -2,10 +2,10 @@ export default function Footer() {
   return (
     <>
    
-      <footer className="mt-44 bg-transparent rounded-lg shadow md:m-4 justify-between">
-      <span className="flex flex-row justify-end w-full text-sm text-gray-300 sm:text-center">© 2023 WarnerMedia Direct, LLC. All rights reserved.
+      <footer className="mt-44 bg-transparent rounded-lg shadow justify-between">
+      <span className="flex flex-row lg:justify-end w-full text-sm text-gray-300 sm:text-center">© 2023 WarnerMedia Direct, LLC. All rights reserved.
       </span>
-        <div className="md:flex justify-between items-center w-full mx-auto py-4">
+        <div className="lg:flex justify-between items-center w-full mx-auto py-4">
           <div className="flex">
           <a className="flex pr-3 text-sm font-bold text-blue-500" href="https://www.youtube.com/@streamonmax" label="YouTube">
             <img className="w-5 opacity-75 hover:opacity-100" loading="lazy" alt="Youtube Logo White" src="/images/icons/YOUTUBE-white.webp"/>
