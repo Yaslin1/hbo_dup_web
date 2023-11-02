@@ -10,8 +10,8 @@ function App() {
 
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/home" element={<Home />} />
         <Route path="/movie" element={<Movie />} />
         <Route path="/profile-picker" element={<ProfilePicker/>} />
       </Routes>
